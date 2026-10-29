@@ -1,0 +1,23 @@
+
+import pandas as pd
+from pathlib import Path
+
+file_path = Path("data/bhote_koshi.csv")
+
+if not file_path.exists():
+    print("Dataset not found. Check the CSV filename.")
+else:
+    df = pd.read_csv(file_path)
+
+    print("Dataset shape:", df.shape)
+    print("\nColumn names:")
+    print(df.columns.tolist())
+
+    print("\nFirst 5 rows:")
+    print(df.head().to_string())
+
+    print("\nMissing values:")
+    print(df.isnull().sum())
+
+    print("\nData types:")
+    print(df.dtypes)

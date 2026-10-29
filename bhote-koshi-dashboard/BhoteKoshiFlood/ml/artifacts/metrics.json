@@ -1,0 +1,24 @@
+{
+    "model": "RandomForestRegressor",
+    "target": "next_day_discharge",
+    "features": [
+        "river_discharge_m3s",
+        "precipitation_mm",
+        "soil_moisture_0_100cm_m3m3",
+        "rain_mm",
+        "temperature_mean_c",
+        "dew_point_mean_c",
+        "precipitation_hours",
+        "relative_humidity_mean_pct",
+        "wind_speed_max_kmh",
+        "wind_gusts_max_kmh",
+        "wind_direction_dominant_deg",
+        "month",
+        "day_of_year"
+    ],
+    "training_rows": 1070,
+    "testing_rows": 268,
+    "MAE": 0.0921181377526771,
+    "RMSE": 0.18839189249823038,
+    "R2": 0.9813125762499141
+}

@@ -1,0 +1,2 @@
+Last_Observed_Date,Forecast_Date,Predicted_Discharge_m3s,Experimental_Threshold_m3s,Threshold_Result,Validation_Status
+2026-12-08,2026-12-09,3.738000000000002,4.08,Below experimental threshold,Not validated against actual future discharge
