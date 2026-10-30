@@ -109,8 +109,8 @@ This project is an academic forecasting experiment. Predictions and experimental
 
 ## Author
 
-**Your Name**  
+Harshit Pant 
 Department of Computer Science and Engineering  
 SRM Institute of Science and Technology
 
-GitHub: [Your GitHub Profile](https://github.com/YOUR_USERNAME)
+GitHub: [harshit1621](https://github.com/harshit1621)
